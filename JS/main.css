@@ -1,0 +1,42 @@
+* {
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Orelega One', serif;
+}
+
+body, input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 0 auto;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: #186157;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0a4139;
+}
+
+input:focus, textarea:focus {
+    outline-color: #186157;
+}
